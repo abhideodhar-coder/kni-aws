@@ -3,3 +3,6 @@ kind: InstallConfig
 metadata:
   name: cluster
 baseDomain: atg-kni-root-domain.com
+platform:
+  aws:
+    region: us-west-2
