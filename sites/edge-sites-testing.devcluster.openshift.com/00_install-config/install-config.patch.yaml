@@ -11,7 +11,7 @@ platform:
       eco-creator: adeodhar
       eco-email: adeodhar@netapp.com
 compute: 
--
+- name: worker
   platform:
     aws:
       type: m5.xlarge
