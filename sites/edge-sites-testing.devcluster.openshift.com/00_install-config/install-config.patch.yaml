@@ -5,4 +5,5 @@ metadata:
 baseDomain: atg-kni-root-domain.com
 platform:
   aws:
-    region: us-east-2
+    region: us-east-1
+    type: m5.large
