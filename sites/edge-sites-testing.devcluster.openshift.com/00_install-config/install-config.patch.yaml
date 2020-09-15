@@ -5,5 +5,12 @@ metadata:
 baseDomain: atg-kni-root-domain.com
 platform:
   aws:
-    region: us-east-1
-    type: m5.large
+    region: us-west-2
+    userTags:
+      creator: adeodhar
+      eco-creator: adeodhar
+      eco-email: adeodhar@netap.com
+compute: 
+  platform:
+    aws:
+      type: m5.xlarge
