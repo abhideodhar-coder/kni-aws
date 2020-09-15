@@ -9,7 +9,7 @@ platform:
     userTags:
       creator: adeodhar
       eco-creator: adeodhar
-      eco-email: adeodhar@netap.com
+      eco-email: adeodhar@netapp.com
 compute: 
   platform:
     aws:
