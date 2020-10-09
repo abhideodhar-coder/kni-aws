@@ -3,8 +3,18 @@ kind: InstallConfig
 metadata:
   name: cluster
 networking:
-  clusterNetworks:
-  - cidr: 10.128.0.0/16  
+  clusterNetwork:
+    - cidr: 10.128.0.0/14
+  hostPrefix: 23
+    clusterNetworks:
+    - cidr: 10.128.0.0/14
+      hostPrefix: 0
+    machineCIDR: 192.168.0.0/16
+    machineNetwork:
+      - cidr: 192.168.0.0/16
+    networkType: OpenShiftSDN
+    serviceNetwork:
+      - 172.30.0.0/16
 baseDomain: atg-kni-root-domain.com
 platform:
   aws:
