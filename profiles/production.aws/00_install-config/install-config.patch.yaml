@@ -1,10 +1,7 @@
 apiVersion: v1
 kind: InstallConfig
 metadata:
-  name: cluster
-  networking:
-  clusterNetworks:
-  - cidr: 10.128.0.0/16
+  name: cluster 
 platform:
   aws:
     region: us-east-2
