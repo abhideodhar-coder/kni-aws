@@ -2,16 +2,10 @@ apiVersion: v1
 kind: InstallConfig
 metadata:
   name: cluster
+networking:
+  clusterNetworks:
+  - cidr: 10.128.0.0/16  
 baseDomain: atg-kni-root-domain.com
 platform:
   aws:
-    region: us-west-2
-    userTags:
-      creator: adeodhar
-      eco-creator: adeodhar
-      eco-email: adeodhar@netapp.com
-compute: 
-- name: worker
-  platform:
-    aws:
-      type: m5.xlarge
+    region: us-east-2
