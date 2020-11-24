@@ -13,5 +13,9 @@ baseDomain: atg-kni-root-domain.com
 platform:
   aws:
     region: us-west-1
-    type: m5.metal
+compute: 	
+- name: worker	
+  platform:	
+    aws:	
+      type: m5.metal
     
