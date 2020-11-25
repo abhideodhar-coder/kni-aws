@@ -17,5 +17,5 @@ compute:
 - name: worker	
   platform:	
     aws:	
-      type: m5.metal
+      type: g4dn.metal
     
