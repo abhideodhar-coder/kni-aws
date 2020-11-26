@@ -12,7 +12,7 @@ networking:
 baseDomain: atg-kni-root-domain.com
 platform:
   aws:
-    region: us-west-2
+    region: us-west-1
 compute: 	
 - name: worker	
   platform:	
